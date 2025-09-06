@@ -19,7 +19,11 @@
  (name sudoku_solver)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+ (depends 
+  (ocaml (>= 5.1))
+  (dune (>= 3.19))
+  base
+  stdio)
  (tags
   ("add topics" "to describe" your project)))
 

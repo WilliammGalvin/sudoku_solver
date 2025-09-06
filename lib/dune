@@ -1,2 +1,3 @@
 (library
- (name sudoku_solver))
+ (name sudoku_solver)
+ (libraries base stdio))
